@@ -16,5 +16,3 @@ ydl_opts = {
 with youtube_dl.YoutubeDL(ydl_opts) as ydl:
     test_url = "https://www.youtube.com/watch?v=uoDGHoFVZpQ"
     ydl.download([test_url])
-
-
